@@ -22,5 +22,7 @@ private double side;
 	public double calculateArea() {
 		return this.side * this.side;
 	}
-
+public double calculatePerimeter() {
+	return this.side * 4;
+}
 }
